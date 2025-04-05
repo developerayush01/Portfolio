@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("pexels-markusspiske-1089438.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.first-sec
+{
+    /* margin: 0 auto; */
+}
+.name
+{
+    padding: 10%;
+}
+.image
+{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+.image:hover
+{
+    transform: rotateY(360deg);
+    transition: 2s ease-in-out;
+}
+.ic:hover
+{
+    transform: scale(1.1);
+    animation: alternate;
+    transition: 0.5s ease-in-out;
+}
+.card:hover
+{
+transform: scale(1.1);
+transition: 0.5s ease-in-out;
+}
