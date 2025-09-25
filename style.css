@@ -453,6 +453,125 @@ body {
     transform: translateX(-50%);
 }
 
+/* Enhanced Direct Contact Section */
+.direct-contact-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.direct-contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(108, 99, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+    color: var(--dark);
+    border: 1px solid rgba(108, 99, 255, 0.1);
+    height: 100%;
+}
+
+.direct-contact-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(108, 99, 255, 0.2);
+    border-color: rgba(108, 99, 255, 0.3);
+}
+
+.direct-contact-card .icon-box {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.direct-contact-card:hover .icon-box {
+    transform: rotate(10deg) scale(1.1);
+}
+
+.direct-contact-card.whatsapp .icon-box {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+}
+
+.direct-contact-card.phone .icon-box {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+}
+
+.direct-contact-card.email .icon-box {
+    background: linear-gradient(135deg, #D44638 0%, #B23121 100%);
+}
+
+.direct-contact-card .content {
+    width: 100%;
+}
+
+.direct-contact-card .content h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--dark);
+}
+
+.direct-contact-card .content p {
+    margin-bottom: 5px;
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.direct-contact-card .small-text {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: var(--gray);
+    padding: 5px 10px;
+    background: rgba(108, 99, 255, 0.05);
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.direct-contact-card:hover .small-text {
+    background: rgba(108, 99, 255, 0.1);
+    color: var(--primary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .direct-contact-options {
+        grid-template-columns: 1fr;
+    }
+    
+    .direct-contact-card {
+        padding: 25px 15px;
+    }
+    
+    .direct-contact-card .icon-box {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .direct-contact-card .content h4 {
+        font-size: 1.1rem;
+    }
+    
+    .direct-contact-card .content p {
+        font-size: 0.9rem;
+    }
+}
+
 /* Responsive Adjustments */
 @media (max-width: 1199.98px) {
     .hero-content h1 {

@@ -58,7 +58,7 @@
             <div class="row h-100 align-items-center">
                 <div class="col-lg-6 hero-content animate__animated animate__fadeInLeft">
                     <h3 class="text-muted">Hello, I'm</h3>
-                    <h1 class="display-3 fw-bold text-primary mb-3">Your Name</h1>
+                    <h1 class="display-3 fw-bold text-primary mb-3">Ayush Bhattarai</h1>
                     <div class="typewriter mb-3">
                         <span class="type-text h4 fw-bold text-secondary"></span>
                         <span class="cursor">|</span>
@@ -198,58 +198,106 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-8 text-center mb-5">
-                    <h2 class="fw-bold">Contact <span class="text-primary">Me</span></h2>
-                    <p class="lead text-muted">Have a project in mind? Let's talk about it</p>
-                </div>
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 text-center mb-5">
+                <h2 class="fw-bold">Contact <span class="text-primary">Me</span></h2>
+                <p class="lead text-muted">Get in touch for collaborations or inquiries</p>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <form class="contact-form">
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Full Name" required>
-                                    <label for="name">Full Name</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Email Address" required>
-                                    <label for="email">Email Address</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
-                                    <label for="phone">Phone Number</label>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Your Message" id="message" style="height: 150px" required></textarea>
-                                    <label for="message">Your Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg px-5 animate__animated animate__pulse animate__infinite">Send Message</button>
+        </div>
+        
+        <div class="row">
+            <!-- Contact Form Column -->
+            <div class="col-lg-6 mb-5 mb-lg-0">
+                <h3 class="h4 mb-4 text-center">Send me a message</h3>
+                <form class="contact-form">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                                <label for="name">Full Name</label>
                             </div>
                         </div>
-                    </form>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                                <label for="email">Email Address</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                                <label for="phone">Phone Number (optional)</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                <label for="subject">Subject</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Your Message" id="message" style="height: 150px" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-primary btn-lg px-5 py-3">
+                                <i class="fas fa-paper-plane me-2"></i> Send Message
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Direct Contact Column -->
+            <div class="col-lg-6">
+                <h3 class="h4 mb-4 text-center">Contact me directly</h3>
+                <div class="direct-contact-options">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/9817771610" class="direct-contact-card whatsapp" target="_blank">
+                        <div class="icon-box">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="content">
+                            <h4>WhatsApp</h4>
+                            <p>Chat with me instantly</p>
+                            <span class="small-text">+977 9817771610</span>
+                        </div>
+                    </a>
+                    
+                    <!-- Phone Call -->
+                    <a href="tel:" class="direct-contact-card phone">
+                        <div class="icon-box">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="content">
+                            <h4>Phone Call</h4>
+                            <p>Available 6AM - 10AM</p>
+                            <p>Available 6PM - 10PM</p>
+                            <span class="small-text">+977 9817771610</span>
+                        </div>
+                    </a>
+                    
+                    <!-- Email -->
+                    <a href="mailto:your.email@example.com" class="direct-contact-card email">
+                        <div class="icon-box">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="content">
+                            <h4>Email</h4>
+                            <p>Response within 24 hours</p>
+                            <span class="small-text">your.email@example.com</span>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
     <!-- Footer -->
     <footer class="bg-dark text-white py-4">
         <div class="container">
