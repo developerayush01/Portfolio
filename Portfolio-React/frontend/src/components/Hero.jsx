@@ -49,7 +49,7 @@ export default function Hero() {
               <span className="type-text h4 fw-bold text-secondary">{currentText}</span>
               <span className="cursor">|</span>
             </div>
-            <p className="lead mb-4">Results-driven Full-Stack Developer with a strong eye for UI/UX design and brand aesthetics. Experienced in building robust web applications while leveraging design tools like Canva to craft engaging social media posts, brand identities, and custom logos that bridge technical architecture with clean visual design.</p>
+            <p className="lead mb-4">Passionate Full-Stack Developer with a sharp eye for UI/UX design and clean layouts. Focused on building and deploying functional web applications, combining solid technical foundations with a keen sense of visual aesthetics.</p>
             <div className="social-icons mb-4">
               <a href="#" className="btn btn-sm btn-outline-light me-2"><i className="fab fa-facebook-f"></i></a>
               <a href="#" className="btn btn-sm btn-outline-light me-2"><i className="fab fa-twitter"></i></a>

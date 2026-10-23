@@ -3,8 +3,21 @@
     --secondary: #4d44db;
     --dark: #2f2e41;
     --light: #f8f9fa;
-    --gray: #6c757d;
+    --gray: #6c63ff;
     --success: #28a745;
+}
+
+/* Theme Color Utility Classes (Using CSS Root Variables) */
+.text-theme-primary {
+    color: var(--primary) !important;
+}
+
+.bg-theme-primary {
+    background-color: var(--primary) !important;
+}
+
+.border-theme-primary {
+    border-color: var(--primary) !important;
 }
 
 /* Base Styles */
@@ -604,7 +617,6 @@ body {
     flex-direction: column;
 }
 
-/* Ensure list items only take up necessary width and don't create dead clickable zones */
 .mobile-drawer-panel .nav-item {
     width: 100%;
 }
@@ -613,7 +625,6 @@ body {
     display: inline-block;
 }
 
-/* Isolated Mobile Slide Drawer Styling */
 /* Isolated Mobile Slide Drawer Styling (Sliding from LEFT) */
 .drawer-backdrop {
     position: fixed;
@@ -629,8 +640,8 @@ body {
 .mobile-slide-drawer-left {
     position: fixed;
     top: 0;
-    left: -300px; /* Hidden off-screen to the left */
-    width: 280px;  /* Partial-screen width */
+    left: -300px;
+    width: 280px;
     height: 100vh;
     background: linear-gradient(180deg, #2f2e41 0%, #0f172a 100%);
     box-shadow: 10px 0 30px rgba(0, 0, 0, 0.5);
@@ -641,7 +652,7 @@ body {
 }
 
 .mobile-slide-drawer-left.open {
-    left: 0; /* Smoothly slides in from left */
+    left: 0;
 }
 
 .drawer-body {
@@ -670,7 +681,7 @@ body {
 .hero-content .typewriter {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Ensures clean left alignment with main heading */
+    justify-content: flex-start;
     flex-wrap: wrap;
     height: auto;
     margin: 15px 0;
@@ -678,7 +689,6 @@ body {
 
 @media (max-width: 991.98px) {
     .hero-content .typewriter {
-        justify-content: center; /* Centers gracefully on mobile view */
+        justify-content: center;
     }
 }
-
