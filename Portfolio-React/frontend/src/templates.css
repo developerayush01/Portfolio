@@ -1,0 +1,50 @@
+/* Template Pages Shared Styling */
+.template-header {
+    padding: 140px 0 60px;
+    background: linear-gradient(135deg, #2f2e41 0%, #4d44db 100%);
+    color: white;
+}
+
+.template-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+    border: none;
+}
+
+.template-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(108, 99, 255, 0.2);
+}
+
+.template-card-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.template-card:hover .template-card-img {
+    transform: scale(1.05);
+}
+
+.template-card-body {
+    padding: 25px;
+    text-align: center;
+}
+
+.template-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2f2e41;
+}
+
+.template-card-text {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Your<span>Name</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 hero-content animate__animated animate__fadeInLeft">
+                    <h3 class="text-muted">Hello, I'm</h3>
+                    <h1 class="display-3 fw-bold text-primary mb-3">Ayush Bhattarai</h1>
+                    <div class="typewriter mb-3">
+                        <span class="type-text h4 fw-bold text-secondary"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="lead mb-4">A creative professional with expertise in frontend development, social media
+                        management, and graphic design.</p>
+                    <div class="social-icons mb-4">
+                        <a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-primary me-2"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="btn btn-sm btn-outline-primary"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a href="#portfolio" class="btn btn-primary btn-lg px-4 me-2">View My Work</a>
+                    <a href="#contact" class="btn btn-outline-primary btn-lg px-4">Hire Me</a>
+                </div>
+                <div class="col-lg-6 hero-img animate__animated animate__fadeInRight">
+                    <div class="profile-img-container">
+                        <img src="profile.jpg" alt="Your Photo" class="profile-img">
+                        <div class="circle-animation"></div>
+                        <div class="circle-animation delay-1"></div>
+                        <div class="circle-animation delay-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-4 mb-lg-0 animate__animated animate__fadeIn">
+                    <img src="profile.jpg" alt="About Photo" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-7 animate__animated animate__fadeIn">
+                    <h2 class="fw-bold mb-4">About <span class="text-primary">Me</span></h2>
+                    <h3 class="h4 text-secondary mb-4">Frontend Developer & Designer</h3>
+                    <p class="lead mb-4">I specialize in frontend development, graphic design, and social media
+                        management. With a keen eye for detail and a passion for creating beautiful, functional designs,
+                        I help businesses establish their online presence.</p>
+                    <div class="skills">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Frontend Development</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 0%" data-width="95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Graphic Design</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 0%" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Social Media Management</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 0%" data-width="85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary mt-3">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="fw-bold">My <span class="text-primary">Services</span></h2>
+                    <p class="lead text-muted">Here are the services I offer to help grow your business</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card h-100 border-0 shadow-sm animate__animated animate__fadeInUp">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle mx-auto mb-4">
+                                <i class="fas fa-code fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3">Frontend Development</h4>
+                            <p class="text-muted mb-4">Building responsive, user-friendly websites with HTML, CSS,
+                                JavaScript and modern frameworks.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="card service-card h-100 border-0 shadow-sm animate__animated animate__fadeInUp animate__delay-1s">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle mx-auto mb-4">
+                                <i class="fas fa-paint-brush fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3">Graphic Design</h4>
+                            <p class="text-muted mb-4">Creating stunning visuals, logos, and branding materials that
+                                make your business stand out.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div
+                        class="card service-card h-100 border-0 shadow-sm animate__animated animate__fadeInUp animate__delay-2s">
+                        <div class="card-body p-4 text-center">
+                            <div class="icon-box bg-primary bg-opacity-10 text-primary rounded-circle mx-auto mb-4">
+                                <i class="fas fa-chart-line fa-2x"></i>
+                            </div>
+                            <h4 class="mb-3">Social Media Management</h4>
+                            <p class="text-muted mb-4">Growing your online presence with strategic content creation and
+                                community engagement.</p>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="fw-bold">My <span class="text-primary">Templates</span></h2>
+                    <p class="lead text-muted">Browse my collection of professional templates</p>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <!-- Portfolio items will be added dynamically by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center mb-5">
+                    <h2 class="fw-bold">Contact <span class="text-primary">Me</span></h2>
+                    <p class="lead text-muted">Get in touch for collaborations or inquiries</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Contact Form Column -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h3 class="h4 mb-4 text-center">Send me a message</h3>
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Full Name" required>
+                                    <label for="name">Full Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Email Address"
+                                        required>
+                                    <label for="email">Email Address</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                                    <label for="phone">Phone Number (optional)</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Your Message" id="message"
+                                        style="height: 150px" required></textarea>
+                                    <label for="message">Your Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-primary btn-lg px-5 py-3">
+                                    <i class="fas fa-paper-plane me-2"></i> Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Direct Contact Column -->
+                <div class="col-lg-6">
+                    <h3 class="h4 mb-4 text-center">Contact me directly</h3>
+                    <div class="direct-contact-options">
+                        <!-- WhatsApp -->
+                        <a href="https://wa.me/9817771610" class="direct-contact-card whatsapp" target="_blank">
+                            <div class="icon-box">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="content">
+                                <h4>WhatsApp</h4>
+                                <p>Chat with me instantly</p>
+                                <span class="small-text">+977 9817771610</span>
+                            </div>
+                        </a>
+
+                        <!-- Phone Call -->
+                        <a href="tel:" class="direct-contact-card phone">
+                            <div class="icon-box">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Phone Call</h4>
+                                <p>Available 6AM - 10AM</p>
+                                <p>Available 6PM - 10PM</p>
+                                <span class="small-text">+977 9817771610</span>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:your.email@example.com" class="direct-contact-card email">
+                            <div class="icon-box">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="content">
+                                <h4>Email</h4>
+                                <p>Response within 24 hours</p>
+                                <span class="small-text">your.email@example.com</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2023 YourName. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="btn btn-primary btn-lg back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
